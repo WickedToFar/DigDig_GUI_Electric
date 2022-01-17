@@ -16,7 +16,7 @@ public class SantaSpriteswap : MonoBehaviour
     public int dmg = 10;
     public int heal = 10;
 
-    public Slider healthBar;
+    public HealthBar healthBar;
 
     public SpriteRenderer spriteRenderer;
 
@@ -25,7 +25,7 @@ public class SantaSpriteswap : MonoBehaviour
     {
         currentHealth = maxHealth;
 
-        healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetMaxHealt(maxHealth);
     }
 
     // Update is called once per frame
