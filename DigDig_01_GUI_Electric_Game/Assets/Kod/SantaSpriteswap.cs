@@ -15,7 +15,7 @@ public class SantaSpriteswap : MonoBehaviour
     public int maxHealth = 100;
     public int dmg = 10;
     public int heal = 10;
-
+    
     public HealthBar healthBar;
 
     public SpriteRenderer spriteRenderer;
